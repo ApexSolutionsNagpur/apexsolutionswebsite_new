@@ -96,6 +96,9 @@ h6,
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
+    backdrop-filter: blur(5px);
+    /* position: fixed; */
+    width: 100%;
 }
 
 .navbar .navbar-brand,
@@ -167,7 +170,7 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(15, 66, 41, .6);
+    /* background: rgba(195, 85, 6, 0.293); */
     z-index: 1;
 }
 
@@ -505,6 +508,7 @@ h6,
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
+    color: #171717;
 }
 
 .copyright {
